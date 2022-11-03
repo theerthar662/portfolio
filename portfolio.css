@@ -1,0 +1,63 @@
+body{
+    background-image:url('./bg.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat:no-repeat ;
+    margin: 0;
+}
+.menu{
+    /* class styling */
+    position: fixed;
+    background-color: blue;
+    width:100%;
+    margin-top: 0px;
+    height: 50px;
+
+}
+.links{
+       display: inline;
+       font-size: 30px;
+       padding: 30px;
+       padding-left: 30px;
+}
+a{
+   color: white;
+   /*  underline povan  */
+   text-decoration: none;
+   /* to set shadow to words */
+   text-shadow: 2px 2px 2px red;
+}
+/* pseudo class - selector: pseudo class{ property:value} */
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 100px;
+    width: 300px;
+}
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+#welcome{
+    background-image: linear-gradient(to bottom right, rgb(192, 243, 243),rgb(8, 27, 31));
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 h3{
+    display: inline;
+    
+
+}
